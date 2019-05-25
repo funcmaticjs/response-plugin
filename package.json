@@ -1,0 +1,37 @@
+{
+  "name": "@funcmaticjs/response-plugin",
+  "version": "1.1.0",
+  "description": "Express-like HTTP response methods (e.g. res.json(), res.sendFile()) to be used in AWS Lambda Node functions connected to API Gateway using AWS Lambda Proxy Integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "aws-lambda",
+    "nodejs",
+    "serverless",
+    "express"
+  ],
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "homepage": "https://github.com/funcmaticjs/response-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/response-plugin.git"
+  },
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "http-errors": "^1.7.2",
+    "mime": "^1.6.0"
+  },
+  "devDependencies": {
+    "@funcmaticjs/funcmatic": "0.0.1",
+    "axios": "^0.18.0",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
